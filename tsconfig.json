@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es20215",
+    "baseUrl": ".",
+    "paths": {
+      "crypto": ["node_modules/crypto-browserify"],
+      "stream": ["node_modules/stream-browserify"]
+    }
+  },
+ 
+}
