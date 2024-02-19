@@ -92,10 +92,10 @@ app.use(bodyParser.json());
 
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    database: 'login',
-    password:'123456'
+    host: 'users.cfmaq2s00dwp.ap-southeast-2.rds.amazonaws.com',
+    user: 'admin',
+    database: 'users',
+    password:'chanduchandu'
   });
 
 
